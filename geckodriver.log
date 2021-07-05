@@ -34,3 +34,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.error: services.settings: 
   main/whats-new-panel Signature failed  TypeError: NetworkError when attempting to fetch resource.
 1625367111256	Marionette	INFO	Stopped listening on port 36155
+1625483259592	geckodriver	INFO	Listening on 127.0.0.1:59251
+1625483260603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9rvRqP"
+1625483261746	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9rvRqP/search.json.mozlz4", (void 0)))
+1625483264021	Marionette	INFO	Listening on port 42275
+1625483264054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625483266266	Marionette	INFO	Stopped listening on port 42275
